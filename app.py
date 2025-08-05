@@ -7,7 +7,7 @@ import numpy as np
 
 # Page configuration
 st.set_page_config(
-    page_title="🏏 Cricket Players Stats Tool",
+    page_title="🏏 Cricket Players Stats Tool - Live Version",
     page_icon="🏏",
     layout="wide",
     initial_sidebar_state="expanded"
