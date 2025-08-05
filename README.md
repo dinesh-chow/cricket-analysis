@@ -2,6 +2,17 @@
 
 A comprehensive data analysis project for exploring cricket player demographics, statistics, and trends across different countries and continents.
 
+## ⚠️ **Important Data Disclaimer**
+
+**This is a demonstration project using sample data for educational purposes:**
+
+- **Player Data:** Sample dataset with basic player information (names, countries, batting/bowling styles)
+- **Performance Statistics:** All career statistics, batting averages, strike rates, and performance metrics are **synthetically generated**
+- **Batting Stroke Analysis:** Demonstration feature using simulated data
+- **Purpose:** Showcase sports analytics dashboard capabilities and data visualization techniques
+
+**This application does not contain real cricket player statistics or performance data.**
+
 ## 📊 Project Overview
 
 This project analyzes a dataset of **17,385 cricket players** from **90 countries** across **6 continents**, providing insights into player demographics, batting/bowling styles, and geographic distribution.

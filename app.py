@@ -770,6 +770,7 @@ def display_player_details(player_data):
     # Career Statistics Section
     st.markdown("---")
     st.markdown("### 📊 Career Statistics")
+    st.warning("⚠️ **Important:** All performance statistics shown below are synthetically generated for demonstration purposes only. These are not real player statistics.")
     st.markdown("*Note: These are synthetic statistics for demonstration purposes*")
     
     # Stats metrics
@@ -930,6 +931,10 @@ def main():
     
     # Header
     st.markdown('<h1 class="main-header">🏏 Cricket Players Stats Tool</h1>', unsafe_allow_html=True)
+    
+    # Data disclaimer
+    st.info("📊 **Data Notice:** This application uses sample demonstration data for cricket players. Player statistics and performance metrics are synthetically generated for educational and demonstration purposes only. This is not real player data.")
+    
     st.markdown("---")
     
     # Load data
@@ -946,6 +951,21 @@ def main():
         "Choose a page:",
         ["🏠 Overview", "👤 Player Search", "📊 Analytics", "🔍 Country Comparison"]
     )
+    
+    # Sidebar disclaimer
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("### ℹ️ About This Data")
+    st.sidebar.markdown("""
+    **Demo Application:** This tool showcases cricket analytics capabilities using sample data.
+    
+    **Data Sources:**
+    - Player names and basic info: Sample dataset
+    - Performance statistics: Synthetically generated
+    - Batting stroke analysis: Demonstration purposes
+    
+    **Purpose:** Educational demonstration of sports analytics dashboard capabilities.
+    """)
+    st.sidebar.markdown("---")
     
     if page == "🏠 Overview":
         st.markdown("## 📈 Dataset Overview")
@@ -1361,6 +1381,7 @@ def main():
         
         elif analysis_type == "Gameplay Simulation":
             st.markdown("### 🎮 Gameplay Simulation & Performance Analysis")
+            st.info("📊 **Demo Feature:** This section demonstrates sports analytics capabilities using synthetically generated performance data for educational purposes.")
             st.markdown("*This section uses synthetic data to demonstrate gameplay analytics*")
             
             # Select a random sample of players for simulation
